@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.component-menu-header{
+    width:100%;
+    float:left;
+    display: flex;
+    justify-content: space-between;
+    background:#fff;
+    box-shadow: 0 6px 12px 0 rgb(6 43 86 / 8%);
+    
+
+    .componente-menu-header__logo{
+        max-height: 76px;
+    }
+
+
+    nav ul{
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+}
+
+.component-menu-header__li a{
+    color:black;
+    list-style: none;
+    display: inline-block;
+    margin:10px;
+
+    li{
+        padding:5px;
+    }
+    
+    :hover{
+        background:rgb(146, 146, 146);
+        color:#fff;
+    }
+
+}

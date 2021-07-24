@@ -1,0 +1,46 @@
+.section-admin-title{
+    @include box;
+    @include space-section;
+
+}
+
+.section-admin-title-form{
+    @include box;
+    @include space-section;
+    float:left;
+    display: flex;
+    justify-content: center;
+
+    form{
+        width: 311px;
+    }
+
+    h4{
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+        color: #2bacb6;
+    }
+
+    input[type=text]{
+        border:none;
+        border:1px solid #d2d2d2;
+        width: 100%;
+        border-radius: 4px;
+        padding: 5px;
+
+        &::placeholder{
+            color:#b1b1b1;
+        }
+    }
+
+    input[type=submit]{
+        border:none;
+        color:#fff;
+        margin-top: 10px;
+        background: none;
+        background: #efa547;
+        border-radius: 5px;
+        width: 80px;
+        padding: 5px;
+    }
+}

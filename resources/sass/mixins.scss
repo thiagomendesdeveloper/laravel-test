@@ -1,0 +1,42 @@
+//paleta de cores
+
+$red: #DF4A4A;
+$green: #1B998B;
+$cadet: #2E294E;
+$yellow: #E3B23C;
+$ble: #446DF6;
+
+
+@mixin box{
+    width: 100%;
+    float:left;
+}
+
+@mixin space-section{
+    margin-top:40px;
+}
+
+@mixin flex($flex, $direction, $wrap, $justfy, $align){
+    display: $flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justfy;
+    align-items: $align;
+}
+
+@mixin border($size, $type, $color){
+    border: $size $type $color;
+}
+
+@mixin radius($size){
+    border-radius:$size;
+}
+
+@mixin font-size($size){
+    font-size: $size;
+}
+
+@mixin space-section{
+    margin-top:5rem;
+}
+

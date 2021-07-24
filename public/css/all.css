@@ -1,0 +1,443 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.component-menu-header {
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0 6px 12px 0 rgba(6, 43, 86, 0.08);
+}
+
+.component-menu-header .componente-menu-header__logo {
+  max-height: 76px;
+}
+
+.component-menu-header nav ul {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.component-menu-header__li a {
+  color: black;
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.component-menu-header__li a li {
+  padding: 5px;
+}
+
+.component-menu-header__li a :hover {
+  background: #929292;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.component-destaque-block {
+  background: url(/images/swimming.png?afbfdec2f2bfc6a04322f36395cab602) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  height: 37.25rem !important;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.component-destaque-block::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  z-index: 1;
+}
+
+.component-destaque-text {
+  color: white;
+  z-index: 5;
+}
+
+.component-destaque__p {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.component-destaque__buttom {
+  color: #fff;
+  border: 1px solid #DF4A4A;
+  background: #DF4A4A;
+  padding: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.component-destaque__buttom:hover {
+  color: #fff;
+  border: 1px solid #a03535;
+  background: #a03535;
+}
+
+.component-section-cards {
+  margin-top: 5rem;
+}
+
+.component-section-cards__card {
+  max-width: 300px;
+  padding: 14px;
+  border-radius: 28px;
+  text-align: justify;
+  background: #dce2e2;
+}
+
+.component-section-cards__card figure {
+  text-align: center;
+}
+
+.component-section-cards__grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.componente-section-imoveis {
+  margin-top: 5rem;
+  width: 100%;
+  float: left;
+}
+
+.componente-section-imoveis-destaques {
+  width: 77%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: "";
+  justify-content: "";
+  align-items: "";
+  box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.componente-section-imoveis-destaques .componente-section-imoveis-destaques__img {
+  max-width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.componente-section-imoveis-destaques .componente-section-imoveis-destaques__content {
+  width: 100%;
+}
+
+.componente-section-imoveis-destaques .componente-section-imoveis-destaques__buttom {
+  background: #DF4A4A;
+  color: #fff;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.componente-section-imoveis-destaques .componente-section-imoveis-destaques__h4 {
+  float: right;
+  padding: 5px;
+  background: #DF4A4A;
+  color: #fff;
+}
+
+.componente-section-imoveis-destaques__buttom {
+  background: #1B998B;
+  color: #fff;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.component-section-clients {
+  margin-top: 5rem;
+}
+
+.component-section-clients .component-section-clients-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.component-section-clients .component-section-clients-content .component-section-clientes__img {
+  width: 40%;
+}
+
+.component-section-clients .component-section-clientes-text {
+  width: 40%;
+}
+
+.component-section-clients .component-section-clientes-text p {
+  color: #68696b;
+}
+
+.component-section-clients .component-section-clientes-text .componente-section-clients__buttom {
+  border-radius: 5px;
+  background: #DF4A4A;
+  color: #fff;
+  padding: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.component-section-clients .animation-count {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.componente-section-newslatter {
+  margin-top: 5rem;
+  width: 100%;
+  float: left;
+  background: url(/images/skyscraper.jpg?700ca65…) no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.componente-section-newslatter::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.componente-section-newslatter .componente-section-newslatter-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.componente-section-info {
+  width: 100%;
+  float: left;
+  display: flex;
+  flex-direction: "";
+  flex-wrap: "";
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  height: 300px;
+  color: #fff;
+  background: #E3B23C;
+}
+
+.section-footer {
+  width: 100%;
+  float: left;
+  margin-top: 5rem;
+  height: auto;
+  background: #2E294E;
+}
+
+.section-footer .section-footer__li {
+  list-style: none;
+}
+
+.section-footer .section-footer__li a {
+  color: #fff;
+}
+
+.section-footer .section-footer-final {
+  color: #bfbfbf;
+  font-size: 1em;
+  text-align: center;
+}
+
+.section-footer-grid {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  color: #fff;
+}
+
+.section-footer-grid .componente-section-sociais_icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-footer-grid .componente-section-sociais_icons .icon {
+  text-decoration: none;
+  background: #2bacb6;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-footer-grid .componente-section-sociais_icons .icon:hover {
+  background: #1a676d;
+}
+
+.section-form-title {
+  width: 100%;
+  float: left;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.section-form {
+  width: 100%;
+  float: left;
+  margin-top: 5rem;
+}
+
+.section-form .section-form-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: "";
+  justify-content: center;
+  align-items: center;
+}
+
+.section-form .section-form-content .section-form__thumb {
+  width: 50%;
+}
+
+.section-form .section-form-img {
+  width: 40%;
+}
+
+.section-form .section-form-inputs {
+  width: 30%;
+}
+
+.section-form .section-form__form h3 {
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  color: #2bacb6;
+}
+
+.section-form .section-form__form input[type=text],
+.section-form .section-form__form [type=password] {
+  border: none;
+  border: 1px solid #d2d2d2;
+  width: 100%;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.section-form .section-form__form input[type=text]::-moz-placeholder, .section-form .section-form__form [type=password]::-moz-placeholder {
+  color: #b1b1b1;
+}
+
+.section-form .section-form__form input[type=text]:-ms-input-placeholder, .section-form .section-form__form [type=password]:-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+.section-form .section-form__form input[type=text]::placeholder,
+.section-form .section-form__form [type=password]::placeholder {
+  color: #b1b1b1;
+}
+
+.section-form .section-form__form input[type=submit] {
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  background: none;
+  background: #efa547;
+  border-radius: 5px;
+  width: 80px;
+  padding: 5px;
+}
+
+.section-form .section-form__form .section-form-inputs__a {
+  color: #435f77;
+}
+
+.section-admin-title {
+  width: 100%;
+  float: left;
+  margin-top: 5rem;
+}
+
+.section-admin-title-form {
+  width: 100%;
+  float: left;
+  margin-top: 5rem;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+.section-admin-title-form form {
+  width: 311px;
+}
+
+.section-admin-title-form h4 {
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  color: #2bacb6;
+}
+
+.section-admin-title-form input[type=text] {
+  border: none;
+  border: 1px solid #d2d2d2;
+  width: 100%;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.section-admin-title-form input[type=text]::-moz-placeholder {
+  color: #b1b1b1;
+}
+
+.section-admin-title-form input[type=text]:-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+.section-admin-title-form input[type=text]::placeholder {
+  color: #b1b1b1;
+}
+
+.section-admin-title-form input[type=submit] {
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  background: none;
+  background: #efa547;
+  border-radius: 5px;
+  width: 80px;
+  padding: 5px;
+}
+
